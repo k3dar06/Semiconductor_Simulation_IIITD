@@ -1,0 +1,20 @@
+# --- Python scratch ---
+__pycache__/
+*.pyc
+
+# --- compiled extension (rebuild via NanoTCAD_ViDES/install.sh) ---
+*.so
+
+# --- transient solver scratch (overwritten every run) ---
+Phi.ini
+ncar.ini
+uscita.out
+
+# --- build logs from compiling the fork ---
+*.log
+
+# --- editor ---
+.vscode/
+
+# NOTE: kept on purpose (your results/inputs): datiout*/, *.png,
+# Phi_15K_seed.out, and all *.py scripts.
